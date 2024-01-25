@@ -4,7 +4,7 @@ package uk.gov.dwp.uc.pairtest.domain;
  * Immutable Object
  */
 
-public class TicketTypeRequest {
+public final class TicketTypeRequest {
 
     private int noOfTickets;
     private Type type;
